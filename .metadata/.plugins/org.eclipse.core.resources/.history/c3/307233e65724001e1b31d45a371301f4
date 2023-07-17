@@ -1,0 +1,15 @@
+package com.example.Test_project_maven.controller;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class BoardController {
+
+	//게시판을 Read Controller
+	public String readBoard () {
+		
+		return "readBoard";
+	}
+
+	
+}

@@ -1,0 +1,10 @@
+package com.example.controller;
+
+public class Controller_Test {
+
+@Controller
+public class Controoer_Test {
+	
+}
+	
+}

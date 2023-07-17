@@ -1,0 +1,10 @@
+package com.mysite.test_sbb.controller;
+
+
+public class Controller {
+
+	public String testGet() {
+		
+		return "Hello Spring Boot local2";
+	}
+}

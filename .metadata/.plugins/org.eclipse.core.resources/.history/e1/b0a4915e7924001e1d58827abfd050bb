@@ -1,0 +1,23 @@
+#application.properties : Spring boot의 설정을 셋팅하는 파일
+
+# 서버 포트 설정
+server.port=9696
+
+# Dev Tools 활성화 : 서버를 재시작하지 않고 바로 클라이언트에게 적용
+spring.devtools.livereload.enabled=true
+
+# cache 를 사용하지 않도록 설정 
+spring.freemarker.cache=false
+
+#DB연결 설정 (H2 , Oracle , MySQL , MSSQL)
+# 1.H2 DB연결 ->build gradle에서 라이브러리 먼저 연결
+	# DB명 : local
+	# 계정명 : sa
+	# 암호 : x
+spring.h2.console.enabled=true
+spring.h2.console.path=/h2-console
+spring.datasource.url=jdbc:h2:~/local
+
+
+
+

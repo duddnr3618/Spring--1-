@@ -1,0 +1,17 @@
+#application.properties : Spring boot의 설정을 셋팅하는 파일
+
+# 서버 포트 설정
+server.port=9696
+
+# Dev Tools 활성화 : 서버를 재시작하지 않고 바로 클라이언트에게 적용
+spring.devtools.livereload.enabled=true
+
+# cache 를 사용하지 않도록 설정 
+spring.freemarker.cache=false
+
+#DB연결 설정 (H2 , Oracle , MySQL , MSSQL)
+# 1.H2 DB연결
+
+
+
+

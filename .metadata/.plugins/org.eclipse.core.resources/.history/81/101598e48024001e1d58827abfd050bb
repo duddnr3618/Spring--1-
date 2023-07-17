@@ -1,0 +1,14 @@
+package com.mysite.test_sbb.controller;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+public class Controller {
+
+	@GetMapping("/board")
+	@ResponseBody
+	public String testGet() {
+		
+		return "Welcome my Board";
+	}
+}

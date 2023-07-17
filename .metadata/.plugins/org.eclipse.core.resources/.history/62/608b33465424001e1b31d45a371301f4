@@ -1,0 +1,16 @@
+package com.example.Test_project_gradle.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+@Controller
+public class Controller_My {
+
+	@GetMapping ("/spring")
+	@ResponseBody
+	
+	public String clientRequest () {
+		return "Welcome to My Test Spring Boot";
+	}
+}

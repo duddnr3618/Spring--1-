@@ -1,0 +1,12 @@
+package com.mysite.test_sbb.dto;
+
+import lombok.Getter;
+
+public class BoardDTO {
+	private String id;
+	private String pass;
+	private String title;
+	private String content;
+
+
+}

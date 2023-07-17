@@ -1,0 +1,6 @@
+package com.mysite.sbb.test;
+
+public class LombokTest {
+	private String id ;
+	private String pass ;
+}

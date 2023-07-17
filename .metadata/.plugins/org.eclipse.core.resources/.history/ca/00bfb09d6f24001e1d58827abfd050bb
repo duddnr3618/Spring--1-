@@ -1,0 +1,10 @@
+package com.example.Test_project_gradle.test;
+
+import lombok.Getter;
+
+@Getter
+public class BoardDTO {
+	private String b_id;
+	private String title;
+	private String content;
+}

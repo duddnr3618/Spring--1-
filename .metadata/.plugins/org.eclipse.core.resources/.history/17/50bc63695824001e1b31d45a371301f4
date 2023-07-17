@@ -1,0 +1,20 @@
+package com.example.Test_project_maven.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+
+@Controller
+public class BoardController {
+
+	//게시판을 Read 
+	//http://localhost:9595/read
+	@GetMapping("/read")
+	public String readBoard () {
+		// 1.요청을 받아서 
+		
+		// 2.back-end에 일을 처리 : 비즈니스 로직처리
+		return "readBoard";
+	}
+
+	
+}
