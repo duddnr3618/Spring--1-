@@ -1,0 +1,8 @@
+-Spring Boot 로직
+Client -> dto/vo -> controller -> dto ->service -> dto -> repository
+-> Entity -> DB
+
+@Autowired : 객체를 spring Container에서 생성해서 주입 (DI : 의존성주입)
+->Test코드에서 사용 , 동일한 타입을 찾아서 객체로 만들어준다.(객체 생성)
+
+주의: DB의 서버를 중지후 DB에 저장 후 다시 서버 시작
